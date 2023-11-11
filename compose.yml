@@ -2,7 +2,7 @@ version: '3.1'
 services:
   rabbit-mq:
     image: rabbitmq:3.12.6-management
-    container_name: rabbit-mq
+    # container_name: rabbit-mq
     ports:
       - 5672:5672
       - 15672:15672
